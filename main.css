@@ -1,4 +1,4 @@
-div {
+.box {
     background-image: url("https://schoolscambodia.com/wp-content/uploads/2025/01/AF1QipPlBX1F9a3dLZTSDJTFOxCuoUX2QBPgbndgVOnRw408-h327-k-no.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,12 +36,19 @@ button:active {
 
 input {
     margin-bottom: 5px;
-    width: 150px;
+    width: 140px;
     font-weight: bold;
     color: #000000;
     transition: all 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid #000;
     
 }
 input:hover {
     transform: scale(1.1);
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
 }
