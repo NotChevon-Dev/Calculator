@@ -23,6 +23,10 @@ button {
     border-radius: 10px;
     transition: all 0.3s ease;
     box-shadow: 1px 1px #000000;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: none;
+
 }
 
 button:hover {
@@ -52,3 +56,11 @@ input:hover {
     display: flex;
     justify-content: center;
 }
+
+@media (hover: none) {
+  button:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
